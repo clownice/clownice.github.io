@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>test_my_site</title>
-    <url>/2022/02/21/test-my-site/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>学习MarkDown</title>
     <url>/2022/02/21/Markdown%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[<h1 id="学习MarkDown语法"><a href="#学习MarkDown语法" class="headerlink" title="学习MarkDown语法"></a>学习MarkDown语法</h1><blockquote>
@@ -88,5 +83,10 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>test_my_site</title>
+    <url>/2022/02/21/test-my-site/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
