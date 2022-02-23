@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>学习MarkDown</title>
+    <url>/2022/02/21/Markdown%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h1 id="学习MarkDown语法"><a href="#学习MarkDown语法" class="headerlink" title="学习MarkDown语法"></a>学习MarkDown语法</h1><blockquote>
+<p>Markdown是一种轻量级的标记语言，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用，常用的标记符号也不超过十个<br>相比于HTML标记语言来说学习成本低了很多，非常便于我们编写个人博客，一旦熟悉，一劳永逸。<br>macOS平台下，我们可以使用的Mou来完成编辑和实时预览的效果，Windows平台可以使用Markdownpad和MarkPad</p>
+</blockquote>
+<span id="more"></span>
+<h2 id="arkdown标题"><a href="#arkdown标题" class="headerlink" title="arkdown标题"></a>arkdown标题</h2><p>可以使用&#x3D;和-标记在段落下方，标明这段文字是一级标题还是二级标题，&#x3D;为一级标题，-为二级标题  </p>
+<h2 id="Markdown段落"><a href="#Markdown段落" class="headerlink" title="Markdown段落"></a>Markdown段落</h2><p>1.回车<br>Markdown段落没有特殊的格式，直接编辑文字就好，段落的换行是使用两个以上的空格加回车  </p>
+<p>2.字体<br>Markdown可以使用一下几种字体，使用星号和下滑线包裹文字，一个为斜体，两个为粗体，三个为粗斜体<br><em>斜体</em><br><strong>粗体</strong><br><em><strong>粗斜体</strong></em>  </p>
+<p>3.分割线<br>可以在一行内使用三个以上的星号、减号、底线来建立一个分割线，行内不能有其他东西，星号或者减号中间可以插入空格  </p>
+<hr>
+<hr>
+<p>4.删除线<br>如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线即可<br><del>删除线文字</del>  </p>
+<p>5.下划线<br>下划线可以通过html的标签来实现，<u>这是下划线</u>  </p>
+<p>6.脚注<br>脚注是对文本的补充说明[^ZYZNNN],好像有点问题  </p>
+<h2 id="Markdown列表"><a href="#Markdown列表" class="headerlink" title="Markdown列表"></a>Markdown列表</h2><p>无序列表使用星号，加号和减号，标记后面添加一空格，然后填写内容<br>有序列表使用数字并加上点来表示<br>列表嵌套只需在子列表的选项前面添三个空格即可  </p>
+<ol>
+<li>第一项：  <ul>
+<li>嵌套的第一个元素  </li>
+<li>嵌套的第二个元素</li>
+</ul>
+</li>
+<li>第二项：  <ul>
+<li>嵌套的第一个元素  </li>
+<li>嵌套的第二个元素</li>
+</ul>
+</li>
+</ol>
+<h2 id="Markdown区块"><a href="#Markdown区块" class="headerlink" title="Markdown区块"></a>Markdown区块</h2><blockquote>
+<p>区块引用  </p>
+<blockquote>
+<p>区块  </p>
+</blockquote>
+</blockquote>
+<h2 id="Markdown代码"><a href="#Markdown代码" class="headerlink" title="Markdown代码"></a>Markdown代码</h2><p>行内代码加一个反引号，可以将<code>printf()</code>添加在段落中<br>区块代码使用三个反引号  </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">public static void main(String[] args)&#123;  </span><br><span class="line">       System.out.println(&quot;Hello World&quot;);</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Markdown链接"><a href="#Markdown链接" class="headerlink" title="Markdown链接"></a>Markdown链接</h2><p>链接可以使用一对方括号后面加一个圆括号<br>这是一个链接<a href="www.baidu.com">百度</a><br>也可以使用一对尖括号<br><a href="https://www.runoob.com/">https://www.runoob.com</a>  </p>
+<h2 id="Markdown图片"><a href="#Markdown图片" class="headerlink" title="Markdown图片"></a>Markdown图片</h2><p>Markdown图片语法格式如下：<br>+开头一个感叹号<br>+接着一对方括号<br>+接着一个普通括号，里面放上图片的网址<br><img src="http://static.runoob.com/images/runoob-logo.png" alt="RUNOOB 图标">  </p>
+<h2 id="Markdown表格"><a href="#Markdown表格" class="headerlink" title="Markdown表格"></a>Markdown表格</h2><p>Markdown制作表格使用竖线和短横线来分割表头和其他行,表格上一行必须为空行  </p>
+<table>
+<thead>
+<tr>
+<th align="left">表头1</th>
+<th align="right">表头2</th>
+<th align="center">表头三</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">单元格1</td>
+<td align="right">单元格2</td>
+<td align="center">单元格3</td>
+</tr>
+<tr>
+<td align="left">单元格4</td>
+<td align="right">单元格5</td>
+<td align="center">单元格6</td>
+</tr>
+</tbody></table>
+<h2 id="Markdown高级技巧"><a href="#Markdown高级技巧" class="headerlink" title="Markdown高级技巧"></a>Markdown高级技巧</h2><p>支持的html元素，包括kbd，b，i，em，sup，sub，br等，如<br>使用<kbd>Ctrl</kbd>+&lt;<kbd>Alt</kbd>+&lt;<kbd>Del</kbd>重启电脑  </p>
+<p>转义，可以使用反斜杠来把特殊字符转义，如\反斜杠，支持如下：<br>\ 反斜杠<br>` 反引号<br>* 星号<br>_ 下划线<br>{} 花括号<br>[] 方括号<br>() 小括号<br># 井号<br>+ 加号<br>- 减号<br>. 英文句点<br>! 感叹号  </p>
+<p>$f(x) &#x3D; sin(x) + 12$ latex配置还是有问题，后期待续</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>test_my_site</title>
+    <url>/2022/02/21/test-my-site/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/02/21/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
